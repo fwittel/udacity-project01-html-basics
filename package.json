@@ -1,0 +1,27 @@
+{
+  "name": "udacity-project01-html-basics",
+  "version": "1.0.0",
+  "description": "Front-end dev course project 1",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fwittel/udacity-project01-html-basics.git"
+  },
+  "author": "FW",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fwittel/udacity-project01-html-basics/issues"
+  },
+  "homepage": "https://github.com/fwittel/udacity-project01-html-basics#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2"
+  }
+}
