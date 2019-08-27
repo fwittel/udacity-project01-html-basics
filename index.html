@@ -8,56 +8,47 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<!-- Wrapper to add margins around content on very large devices -->
-	<div class="grid-container">
-		<div class="grid-item head">
-			<img class="logo" src="img/logo.png" alt="logo FW">
+	<!-- Semantic elements on main level to make the page more accessible -->
+	<header>
+		<img class="logo" src="img/logo.png" alt="logo FW">
+		<h2>About</h2>
+		<h2 class="active">Projects</h2> 
+		<h2>Now</h2>
+	</header>
+	<main class="flexbox-container">
+		<div class="card flexbox-item">
+			<img src="img/dataviz1.jpeg" alt="data visualization in sankey layout">
+			<h3>World Water Consumption</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium autem hic nesciunt qui modi ducimus nostrum, architecto cupiditate eligendi labore?</p>
 		</div>
-		<header class="grid-item menu">
-			<h2>About</h2>
-			<h2 class="active">Projects</h2> 
-			<h2>Now</h2>
-		</header>
-		<!-- Three areas for types of projects -->
-		<div class="grid-item visualization">
-			<div class="card">
-				<img src="img/dataviz1.jpeg" alt="data visualization in sankey layout">
-				<h3>World Water Consumption</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium autem hic nesciunt qui modi ducimus nostrum, architecto cupiditate eligendi labore?</p>
-			</div>
-			<div class="card">
-				<img src="img/dataviz2.jpeg" alt="data visualization with colorful dots">
-				<h3>Colors of Songs</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa soluta error pariatur similique, optio quaerat. Quisquam modi nam error debitis.</p>
-			</div>
-			<div class="card">
-				<img src="img/dataviz3.jpeg" alt="Smartphone showing a dashboard">
-				<h3>Mobile Dashboard</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, voluptatibus, quae. Deserunt magnam quasi animi, eos laborum dolor officia in dolore sit est!</p>
-			</div>
+		<div class="card flexbox-item">
+			<img src="img/dataviz2.jpeg" alt="data visualization with colorful dots">
+			<h3>Colors of Songs</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa soluta error pariatur similique, optio quaerat. Quisquam modi nam error debitis.</p>
 		</div>
-		<div class="grid-item company">
-			<div class="card">
-				<img src="img/company1.jpeg" alt="modern glass shell on big building">
-				<h3>Company Structure Adaption in Architecture</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, tempore?</p>
-			</div>
-			<div class="card">
-				<img src="img/company2.jpeg" alt="stone building in glass dome worm perspective">
-				<h3>Leadership Instead of Management</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, vitae perferendis vero, blanditiis deserunt repudiandae a assumenda eligendi nostrum, maiores culpa tempore.</p>
-			</div>
+		<div class="card flexbox-item">
+			<img src="img/dataviz3.jpeg" alt="Smartphone showing a dashboard">
+			<h3>Mobile Dashboard</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, voluptatibus, quae. Deserunt magnam quasi animi, eos laborum dolor officia in dolore sit est!</p>
 		</div>
-		<div class="grid-item world">
-			<div class="card">
-				<img src="img/world1.jpeg" alt="sattelite image of world at night">
-				<h3>Polynet for a More Connected World</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aspernatur officia impedit quae consequuntur nam tenetur exercitationem facere, doloremque quo, sit est, assumenda culpa et.</p>
-			</div>
+		<div class="card flexbox-item">
+			<img src="img/company1.jpeg" alt="modern glass shell on big building">
+			<h3>Company Structure Adaption in Architecture</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, tempore?</p>
 		</div>
-		<footer class="grid-item">
-			<p><a href="mailto:f@fabianwittel.com">f@fabianwittel.com</a> | Images from <a href="https://unsplash.com/">unsplash</a></p>
-		</footer>		
-	</div>
+		<div class="card flexbox-item">
+			<img src="img/company2.jpeg" alt="stone building in glass dome worm perspective">
+			<h3>Leadership Instead of Management</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, vitae perferendis vero, blanditiis deserunt repudiandae a assumenda eligendi nostrum, maiores culpa tempore.</p>
+		</div>
+		<div class="card flexbox-item">
+			<img src="img/world1.jpeg" alt="sattelite image of world at night">
+			<h3>Polynet for a More Connected World</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aspernatur officia impedit quae consequuntur nam tenetur exercitationem facere, doloremque quo, sit est, assumenda culpa et.</p>
+		</div>
+	</main>
+	<footer>
+		<p><a href="mailto:f@fabianwittel.com">f@fabianwittel.com</a> | Images from <a href="https://unsplash.com/">unsplash</a></p>
+	</footer>		
 </body>
 </html>
